@@ -4,9 +4,9 @@ class Score {
   show() {
     noStroke();
     fill(255);
-    textSize(50);
+    this.t = textSize(window.innerWidth / 25);
     textFont(myFont);
     textAlign(CENTER);
-    text(count, 500, 100);
+    this.cText = text(count, player.x, player.y);
   }
 }

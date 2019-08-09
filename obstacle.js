@@ -8,7 +8,7 @@ function preload() {
 class Obstacle {
 
   constructor() {
-    this.r = 100;
+    this.r = window.innerWidth / 16;
     this.x = width;
     this.y = height - this.r;
   }

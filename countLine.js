@@ -2,13 +2,13 @@ class Line {
 
   constructor() {
     this.x = 1;
-    this.y = 399;
+    this.y = window.innerHeight - 25;
     this.w = 1;
     this.h = 1;
   }
 
   show() {
-    fill(0);
+    fill(255);
     rect(this.x, this.y, this.w, this.h);
   }
 

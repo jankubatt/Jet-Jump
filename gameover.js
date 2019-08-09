@@ -9,8 +9,9 @@ class Gameover {
 
   }
   show(){
-      text("Game Over", 500, 200);
+      text("Game Over", window.innerWidth / 2, 200);
       textSize(25);
-      text("Press F5 to restart", 500, 275);
+      text("Press F5 to restart", window.innerWidth / 2, 275);
+
   }
 }

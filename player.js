@@ -8,7 +8,7 @@ function preload() {
 class Player {
 
   constructor(){
-    this.r = 100;
+    this.r = window.innerWidth / 12;
     this.x = this.r;
     this.y = height - this.r;
     this.vy = 0;
