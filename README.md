@@ -6,5 +6,7 @@ You are boy, that jumps over jets. You gain score and you may die. It's easy.
 -Processing
 
 # What I Learned
--Physics etc.
+- Basics of JS
+- p5.js
+
 
